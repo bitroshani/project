@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    /* font-size: 62.5%; */
+     /* 10px/16px=0.625=62.5 */
+    font-size: 10px; 
+}
+body{
+    font-family: 'Poppins';
+}
+p{
+    font-size: 1rem;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.container{
+    margin: 0 auto;
+    width: 137rem;
+    /* background-color: grey;
+    height: 600px; */
+}
