@@ -78,7 +78,7 @@ img {
 .col-10 {
     width: 83.33%;
 }
-
+circle
 .col-11 {
     width: 91.66%;
 }
@@ -95,7 +95,6 @@ header {
     left: 0;
     position: fixed;
     width: 100%;
-    transition: all 0.5s;
     z-index: 9;
 }
 
@@ -241,6 +240,79 @@ header .sreach i {
     text-align: center;
     color: #878787;
 }
+
+.explore-slider .explore-img{
+    height: 36rem;
+}
+.explore-slider  .swiper-slide{
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+}
+.explore-slider  .swiper-slide img{
+    border-radius: 1rem 1rem 0 0;
+}
+
+.explore-slider .explore-img img{
+    height: 100%;
+    width: 100%;
+    border-radius:1rem 1rem 0 0;
+    object-fit: cover;
+    object-position: center center;
+}
+.explore-slider .swiper-wrapper{
+    padding: 2rem 2rem;
+}
+.swiper-slide .card-text{
+    position: relative;
+}
+
+.swiper-slide .card-text h2{
+    padding-top: 3.4rem;
+    font-weight: 600;
+    font-size: 2.4rem;
+    padding-bottom: 1rem;
+}
+.swiper-slide .card-text p{
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #555555;
+}
+.swiper-slide .explore-circle{
+    width: 7rem;
+    height: 7rem;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: -2rem;
+    right: 3rem;
+}
+.swiper-slide .explore-circle span{
+    color: #000;
+    display: block;
+    font-size: 7.2rem;
+    margin-left: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
