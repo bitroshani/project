@@ -361,7 +361,7 @@ header .search i {
     position: relative;
     overflow: hidden;
     /* padding-top: 17rem; */
-    margin-bottom: 17rem;
+    margin-bottom: 20rem;
 }
 
 
@@ -432,12 +432,12 @@ header .search i {
 }
 
 .why-select-btn .prev-1 {
-    left: -10rem;
+    left: 0rem;
     color: #737373;
 }
 
 .why-select-btn .next-1 {
-    right: -10rem;
+    right: 0rem;
     color: #737373;
 }
 
@@ -461,63 +461,257 @@ header .search i {
 
 /* ***********partner part******************** */
 
-.tour-logo {
-    display: flex;
-    justify-content: space-evenly;
-    /* text-align: center;
-    align-items: center; */
-}
-
-#partner .main-title p {
-    margin-bottom: 0;
-    /* padding-bottom: 12rem; */
-}
-
-#partner .tour-logo {
-    padding-top: 6rem;
-    /* justify-content:space-between; */
-    /* margin-right: 5rem; */
-
-}
-
-/* ************************************************ */
-
-/* ************Gallery part************************** */
-
-
-
-.Gallery {
+#partner {
     margin: 17.8rem 0 12rem;
 }
 
-.Gallery h2 {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 70px;
-    text-align: center;
-    color: #878787;
+.tour-logo {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6rem;
 }
 
-.Gallery h3 {
-    font-weight: 600;
-    font-size: 60px;
-    line-height: 70px;
-    text-align: center;
-    color: #000000;
-    /* position: relative; */
+.tour-img img {
+    height: 4rem;
 }
-
-.img-logo img {
-
-    position: absolute;
-    width: 676px;
-    height: 676px;
-    left: 70px;
-    top: 3247.74px;
-    background: #C4C4C4;
-    border-radius: 10px;
-}
-
-
 
 /* ************************************************ */
+
+
+/* *********client part******************* */
+
+.client-container {
+    margin: 17rem 0 18rem 0;
+}
+.client-container{
+    margin-left: calc((100% - 137rem) / 2);
+}
+
+.client-container .client-say p span {
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 6rem;
+    letter-spacing: 0.14em;
+    color: grey;
+}
+
+.client-container .client-say h2 {
+    font-weight: 600;
+    font-size: 6rem;
+    line-height: 7rem;
+    color: #020202;
+}
+
+.client-container .client-say p {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 4rem;
+    color: grey;
+    /* padding-bottom: 10rem; */
+}
+
+#our-client .our-client-slider .swiper-slide {
+    background: #FFF;
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    width: 39.9rem;
+    height: 43.2rem;
+    padding: 5rem 5.4rem 5.1rem 5.3rem;
+}
+
+.our-client-slider .swiper-wrapper {
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+}
+
+.our-client-slider .swiper-slide .client-img {
+    
+}
+
+.our-client-slider .swiper-slide .client-img img {
+    width: 13rem;
+    height: 13rem;
+    /* margin: -12rem 0 0 8.3rem;
+    display: inline; */
+    position: absolute;
+    /* position: relative; */
+    top: -16%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.our-client-slider .swiper-slide .client-data {
+    text-align: center;
+    /* justify-content: space-between; */
+}
+
+.our-client-slider .client-bio {
+    position: relative;
+    /* position: absolute; */
+}
+
+.our-client-slider .swiper-slide .client-data h4 {
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    text-align: center;
+    color: #000000;
+    padding-top: 4.4rem;
+}
+
+.our-client-slider .swiper-slide .client-data p {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: #858585;
+}
+
+
+
+.our-client-slider .swiper-slide .client-data a i {
+    margin-right: 0.7rem;
+    font-size: 1.5rem;
+}
+
+.our-client-slider .swiper-slide .client-data a {
+    padding-top: 5rem;
+    display: inline-block;
+    display: flex;
+    justify-content: flex-start;
+    /* justify-content: space-between; */
+    color: yellow;
+    padding-bottom: 1.8rem;
+}
+
+
+
+/* .our-client-slider .swiper-slide .client-data a {
+    padding-top: 5rem;
+    display: inline-block;
+    display: flex;
+    justify-content: flex-start;
+    color: #F4BC61;
+    padding-bottom: 1.8rem;
+} */
+
+.our-client-folder {
+    position: relative;
+    margin-top: 15rem;
+    display: block;
+}
+
+
+
+.our-client-slider .swiper-slide .client-data>p {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: #858585;
+    text-align: left;
+}
+
+
+
+
+.our-client-btn .prev2 {
+    right: 16rem;
+    color: #737373;
+}
+
+.our-client-btn .next2 {
+    right: 3rem;
+    color: #737373;
+}
+
+
+
+.our-client-btn .prev2,
+.our-client-btn .next2 {
+    z-index: 8;
+    position: absolute;
+    top: -11rem;
+    width: 7rem;
+    height: 6.6rem;
+    box-shadow: 0px 8px 50px rgba(0, 0, 0, 0.1);
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    border-radius: 1rem;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 6.5rem;
+    cursor: pointer;
+}
+
+/* ************************************************ */
+
+
+
+/* *************Subcribe part**************************** */
+
+
+#subscribe {
+
+    margin: 17.8rem 0 12rem;
+    background-color: var(--bg-color);
+    padding: 3.1rem 0 15rem 0;
+    background: url(../imges/pexels-obo-teng-15478201.jpg);
+    background-size: 100% 54.2rem;
+    /* background-position: center center; */
+    background-repeat: no-repeat;
+}
+
+#subscribe .main-title h2 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 6rem;
+    line-height: 7rem;
+    text-align: center;
+
+
+}
+
+#subscribe .main-title p {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 3.4rem;
+    text-align: center;
+    color: #DFDFDF;
+    font-weight: bold;
+}
+
+.subscribe-form {
+    width: 73.6rem;
+    height: 7.2rem;
+    background: #FFFFFF;
+    border: 1px solid #CBCACA;
+    box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.3);
+    border-radius: 7.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.9rem 0 2.3rem;
+    margin: 0 auto;
+}
+
+.subscribe-form .email-form {
+    border: none;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 3.4rem;
+    /* color: #9B9B9B; */
+}
+
+.subscribe-form .subscribe {
+    background-color: #000;
+    color:#fff;
+    border-radius: 38rem;
+    padding: 1.5rem 2rem;
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+   
+}
+
+
+/* ****************************************** */
