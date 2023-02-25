@@ -480,11 +480,11 @@ header .search i {
 
 /* *********client part******************* */
 
+/* *********client part******************* */
+
 .client-container {
     margin: 17rem 0 18rem 0;
-}
-.client-container{
-    margin-left: calc((100% - 137rem) / 2);
+    margin-left: calc((100% - 1370px) / 2);
 }
 
 .client-container .client-say p span {
@@ -524,9 +524,7 @@ header .search i {
     padding-bottom: 5rem;
 }
 
-.our-client-slider .swiper-slide .client-img {
-    
-}
+.our-client-slider .swiper-slide .client-img {}
 
 .our-client-slider .swiper-slide .client-img img {
     width: 13rem;
@@ -579,29 +577,15 @@ header .search i {
     display: inline-block;
     display: flex;
     justify-content: flex-start;
-    /* justify-content: space-between; */
-    color: yellow;
-    padding-bottom: 1.8rem;
-}
-
-
-
-/* .our-client-slider .swiper-slide .client-data a {
-    padding-top: 5rem;
-    display: inline-block;
-    display: flex;
-    justify-content: flex-start;
     color: #F4BC61;
     padding-bottom: 1.8rem;
-} */
+}
 
 .our-client-folder {
     position: relative;
     margin-top: 15rem;
     display: block;
 }
-
-
 
 .our-client-slider .swiper-slide .client-data>p {
     font-weight: 500;
@@ -704,14 +688,188 @@ header .search i {
 
 .subscribe-form .subscribe {
     background-color: #000;
-    color:#fff;
+    color: #fff;
     border-radius: 38rem;
     padding: 1.5rem 2rem;
     font-weight: 500;
     font-size: 18px;
     border: none;
-   
+
 }
 
 
 /* ****************************************** */
+
+
+#travelers {
+    margin: 8.7rem 0 0 0;
+}
+
+.travel .travelers .tra-img img {
+    margin: auto 0;
+}
+
+.travel {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 6rem;
+}
+
+.travel h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    font-style: normal;
+
+}
+
+/* .travel h4 {
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 7rem;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    font-style: normal;
+} */
+
+.travel .travelers .travelers-img {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.travel ul li {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    display: flex;
+    align-items: center;
+    color: #6C6C6C;
+    margin-bottom: 1rem;
+    /* position: relative; */
+}
+
+.contact ul {
+    list-style-type: none;
+}
+
+.contact ul li a {
+    display: inline-block;
+    padding: 0 1rem;
+    color: #000;
+    font-size: 1.8rem;
+}
+
+.contact ul li a i {
+    color: #000;
+}
+
+.contact ul li {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 3.4rem;
+    display: flex;
+    color: grey;
+}
+
+
+
+.contact h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+.follow-us .follow-icon p a{
+    display: inline-block;
+    color: grey;
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-right: 1rem;
+}
+
+ .contact ul li a i:hover {
+    color:blue;
+    /* transition: all 0.5s; */
+} 
+
+.follow-us .follow-icon {
+    display: flex;
+}
+
+.copy {
+    padding: 4rem 0 2rem 0;
+    background-color: #000;
+}
+
+.copy p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 3.4rem;
+    text-align: center;
+    color: #fff;
+}
+
+.link ul {
+    list-style-type: none;
+}
+
+.link ul li a {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 3.4rem;
+    display: flex;
+    align-items: center;
+    color: grey;
+}
+
+.link ul li a:hover {
+    color: red;
+    /* border-bottom: 2px solid #000; */
+}
+
+.follow-us ul {
+    /* list-style-type: none; */
+}
+
+.follow-us ul li {
+    display: inline-block;
+    /* position: relative; */
+}
+.follow-us ul li a:hover {
+    color:blue;
+}
+
+.follow-us h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+
+.follow-us ul li a {
+    display: inline-block;
+    color: #3D3D3D;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 3.4rem;
+    padding-right: 1.5rem;
+}
+
+
+
+
+/***********************************/
