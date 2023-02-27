@@ -296,6 +296,7 @@ header .search i {
     font-size: 2.4rem;
     line-height: 3.6rem;
     color: #000000;
+    margin-bottom: 1rem;
 }
 
 .explore-slider .card-data p {
@@ -309,15 +310,7 @@ header .search i {
     position: relative;
 }
 
-.explore-btn .prev {
-    left: 0;
-    color: #737373;
-}
 
-.explore-btn .next {
-    right: 0;
-    color: #737373;
-}
 
 .explore-btn .prev,
 .explore-btn .next {
@@ -334,6 +327,18 @@ header .search i {
     text-align: center;
     line-height: 6.5rem;
 }
+
+.explore-btn .next {
+    right: 0;
+    color: grey;
+}
+
+.explore-btn .prev {
+    left: 0;
+    color: grey;
+}
+
+
 
 .explore-slider .swiper-slide:hover {
     border-radius: 1rem;
@@ -362,6 +367,10 @@ header .search i {
     overflow: hidden;
     /* padding-top: 17rem; */
     margin-bottom: 20rem;
+}
+
+.why-slider {
+    width: 115rem;
 }
 
 
@@ -697,8 +706,9 @@ header .search i {
 
 }
 
-
-/* ****************************************** */
+/* * ****************************************** */
+*/
+/* ******************footer part************************ */
 
 
 #travelers {
@@ -737,8 +747,8 @@ header .search i {
 } */
 
 .travel .travelers .travelers-img {
-    padding-bottom: 2rem;
-    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 .travel ul li {
@@ -748,7 +758,7 @@ header .search i {
     display: flex;
     align-items: center;
     color: #6C6C6C;
-    margin-bottom: 1rem;
+    margin-bottom: 0.3rem;
     /* position: relative; */
 }
 
@@ -766,6 +776,7 @@ header .search i {
 .contact ul li a i {
     color: #000;
 }
+
 
 .contact ul li {
     display: inline-block;
@@ -787,7 +798,8 @@ header .search i {
     text-align: center;
     color: #000000;
 }
-.follow-us .follow-icon p a{
+
+.follow-us .follow-icon p a {
     display: inline-block;
     color: grey;
     width: 2.4rem;
@@ -795,10 +807,10 @@ header .search i {
     margin-right: 1rem;
 }
 
- .contact ul li a i:hover {
-    color:blue;
+.contact ul li a i:hover {
+    color: blue;
     /* transition: all 0.5s; */
-} 
+}
 
 .follow-us .follow-icon {
     display: flex;
@@ -844,8 +856,9 @@ header .search i {
     display: inline-block;
     /* position: relative; */
 }
+
 .follow-us ul li a:hover {
-    color:blue;
+    color: blue;
 }
 
 .follow-us h4 {
@@ -868,8 +881,5 @@ header .search i {
     line-height: 3.4rem;
     padding-right: 1.5rem;
 }
-
-
-
 
 /***********************************/
