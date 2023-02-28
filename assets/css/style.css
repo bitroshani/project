@@ -370,7 +370,8 @@ header .search i {
 }
 
 .why-slider {
-    width: 115rem;
+   margin-right: 10rem;
+   margin-left: 10rem;
 }
 
 
@@ -525,7 +526,7 @@ header .search i {
     border-radius: 1rem;
     width: 39.9rem;
     height: 43.2rem;
-    padding: 5rem 5.4rem 5.1rem 5.3rem;
+    padding: 5rem 5.4rem 5.1rem 5.1rem;
 }
 
 .our-client-slider .swiper-wrapper {
@@ -758,7 +759,11 @@ header .search i {
     display: flex;
     align-items: center;
     color: #6C6C6C;
-    margin-bottom: 0.3rem;
+    mar.client-container {
+        margin: 17rem 0 18rem 0;
+        margin-left: calc((100% - 1370px) / 2);
+    }
+    gin-bottom: 0.3rem;
     /* position: relative; */
 }
 
@@ -883,3 +888,55 @@ header .search i {
 }
 
 /***********************************/
+
+/* 1366 - 1400 (leptop) */
+@media screen and (max-width: 1440px) {
+    .container {
+        max-width: 133rem;
+    }
+
+    .hero-data h1 {
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 100px;
+
+    }
+
+    #explore {
+        margin: 10rem 0 10rem;
+    }
+
+
+    .main-title h2 {
+
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 60px;
+       
+    }
+
+}
+@media screen and (max-width: 1365px) {
+    .container{
+        max-width: 115rem;
+    }
+    header nav ul li a {
+       
+        font-size: 18px;
+        padding: 2rem 2rem;
+    }
+    .client-container {
+        margin: 10rem 0 10rem 0;
+        margin-left: calc((100% - 115rem) / 2);
+    }
+
+.why-select-btn .prev-1, .why-select-btn .next-1 {
+ 
+    position: absolute;
+    top: -7rem;
+    width: 6rem;
+    height: 5rem;
+    line-height: 6.5rem;
+}
+    
+}
