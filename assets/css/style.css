@@ -256,7 +256,7 @@ header .row nav ul>i {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 0.9rem 0 2.3rem;
+    padding: 0 0.9rem 0 2.5rem;
 }
 
 .search-form select {
@@ -435,7 +435,19 @@ header .row nav ul>i {
     overflow: hidden;
     /* padding-top: 17rem; */
     margin-bottom: 17rem;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+
 }
+
+
+#why-select::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* z-index: 9; */
+}
+
 
 #why-select .main-title h2 {
     color: var(--secondary-color);
@@ -481,6 +493,13 @@ header .row nav ul>i {
 
 }
 
+.why-slider .why-text a {
+    margin-top: 3rem;
+    font-size: 1.6rem;
+    line-height: 7rem;
+    color: #000;
+}
+
 .why-slider .why-text h4 {
     font-weight: 600;
     font-size: 2.4rem;
@@ -501,10 +520,6 @@ header .row nav ul>i {
     margin-top: 3.8rem;
     text-decoration: none;
     font-weight: 500;
-    font-size: 1.8rem;
-    line-height: 2.7rem;
-    color: #000000;
-    display: inline-block;
 }
 
 .why-select-folder {
@@ -603,7 +618,11 @@ header .row nav ul>i {
 }
 
 .our-client-slider .swiper-wrapper {
-    padding-top: 7rem;
+    padding-top:
+    .our-client-arrow .next2 {
+        right: 12rem;
+        color: #737373;
+    } 7rem;
     padding-bottom: 5rem;
 }
 
@@ -674,7 +693,7 @@ header .row nav ul>i {
 }
 
 
-
+/* 
 .our-client-arrow .prev2,
 .our-client-arrow .next2 {
     z-index: 8;
@@ -690,15 +709,31 @@ header .row nav ul>i {
     text-align: center;
     line-height: 6.5rem;
     cursor: pointer;
+
+} */
+.our-client-arrow .prev2, .our-client-arrow .next2 {
+    z-index: 8;
+    position: absolute;
+    top: -18rem;
+    width: 7rem;
+    height: 6.6rem;
+    box-shadow: 0px 8px 50px rgb(0 0 0 / 10%);
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 6.5rem;
+    cursor: pointer;
 }
 
 .our-client-arrow .prev2 {
-    right: 16rem;
+    right: 28rem;
     color: #737373;
 }
 
 .our-client-arrow .next2 {
-    right: 3rem;
+    right: 18rem;
     color: #737373;
 }
 
@@ -778,8 +813,9 @@ header .row nav ul>i {
 /************************************/
 
 /***********Traveler Section*********/
-#travelers {
+#travelers-top {
     padding: 8.9rem 0 0 0;
+
 }
 
 .travel {
@@ -816,13 +852,14 @@ header .row nav ul>i {
     margin-bottom: 1rem;
 }
 
+
 .contact-info ul {
     list-style-type: none;
 }
 
 .contact-info ul li a {
     display: inline-block;
-    padding: 0 1rem;
+    padding: 0 1.5rem;
     color: #000;
     font-size: 1.8rem;
 }
@@ -840,9 +877,22 @@ header .row nav ul>i {
     color: #000;
 }
 
-.contact-info ul li a i:hover {
-    color: #069ABA;
+.contact-info li:hover {
+    color: red;
 }
+
+
+.contact-info ul li a i:hover {
+    color: red;
+}
+
+/* .contact-info ul li a:hover{
+    color: red;
+} */
+
+/* .contact-info:hover {
+    color: red;
+} */
 
 
 .follow-us .follow-icon {
@@ -878,15 +928,17 @@ header .row nav ul>i {
 .link ul li a {
     font-weight: 500;
     font-size: 1.8rem;
-    line-height: 3.4rem;
+    line-height: 3rem;
     display: flex;
     align-items: center;
     color: #6C6C6C;
+    /* padding: 1.5rem; */
 }
 
 .link ul li a:hover {
-    color: #069ABA;
-    border-bottom: 2px solid #069ABA;
+    color: red;
+    border-bottom: red;
+
 }
 
 .follow-us ul {
@@ -907,7 +959,7 @@ header .row nav ul>i {
 }
 
 .follow-us ul li a:hover {
-    color: #069ABA;
+    color: red;
 }
 
 /***********************************/
@@ -924,7 +976,7 @@ header .row nav ul>i {
     }
 } */
 /****1441-1650****/
-@media screen and (max-width:1650px) {
+/* @media screen and (max-width:1650px) {
     .why-select-arrow .prev1 {
         left: -7rem;
         color: #737373;
@@ -935,7 +987,7 @@ header .row nav ul>i {
         color: #737373;
     }
 
-}
+} */
 
 /****1366-1440****/
 @media screen and (max-width:1440px) {
@@ -943,23 +995,45 @@ header .row nav ul>i {
         max-width: 137rem;
     }
 
+    .why-select-arrow .next1,
     .why-select-arrow .prev1 {
-        left: -5rem;
-        color: #737373;
+        width: 6rem;
+        height: 5.6rem;
+        font-size: 2.3rem;
+        line-height: 5.5rem;
+        top: -4.4rem;
     }
 
     .why-select-arrow .next1 {
-        right: -5rem;
+        right: -8rem;
         color: #737373;
     }
 
-    .client-containor {
-        margin: 17rem 0 18rem 0;
-        margin-left: calc((100% - 1300px) / 2);
+    .why-select-arrow .prev1 {
+        left: -8rem;
     }
+
+
+    .why-slider .why-text a {
+        margin-top: 3rem;
+        font-size: 1.6rem;
+        line-height: 7rem;
+    }
+
+/* .our-client-arrow .next2 {
+    right: 12rem;
+    color: #737373;
 }
 
-/***1200-1365****/
+.our-client-arrow .prev2{
+    right: 22rem;
+    color: #737373;
+}
+     */
+
+}
+
+/***1200-1365 (Big ipad)****/
 @media screen and (max-width:1365px) {
     .containor {
         max-width: 95%;
