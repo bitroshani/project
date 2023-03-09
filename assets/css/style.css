@@ -559,16 +559,6 @@ header .row nav ul>i {
     height: 54.2rem;
 }
 
-/* #why-select::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background-color: rgba(0, 0, 0, 0.3);
-   background-repeat: no-repeat;
-} */
-/* .swiper-android .swiper-slide, .swiper-wrapper {
-    transform: translate3d(0px,0,0);
-} */
 
 
 /******************************************/
@@ -1010,111 +1000,86 @@ header .row nav ul>i {
 /****1366-1440****/
 @media screen and (max-width:1440px) {
     .containor {
-        max-width: 137rem;
-    }
-
-    .hero-data h1 {
-        font-size: 6rem;
-        line-height: 6rem;
-    }
-
-    .main-title h2 {
-        font-size: 5rem;
-        line-height: 5rem;
-        margin-bottom: 1rem;
-    }
-
-    .main-title p {
-        font-size: 2rem;
-        line-height: 3.1rem;
-        margin-bottom: 7.4rem;
-    }
-
-
-
-    .client-containor {
-        margin: 17rem 0 18rem 0;
-        margin-left: calc((100% - 1300px) / 2);
-    }
-
-
-    .why-select-arrow .prev1 {
-        left: -4rem;
-        color: #737373;
-    }
-
-    .why-select-arrow .next1 {
-        right: -3rem;
-        color: #737373;
-    }
-
-    .our-client-arrow .next2 {
-        right: 6rem;
-        color: #737373;
-    }
-
-    .our-client-arrow .prev2 {
-        right: 15rem;
-        color: #737373;
-    }
-
-    #hero .hero-data {
-        top: 18%;
-    }
-
-    /* #hero {
-        height: 171vh;
-    } */
-}
-
-/* *****************1366*********************************** */
-
-/***1200-1366****/
-@media screen and (max-width:1366px) {
-    .containor {
         max-width: 95%;
+    }
+    header .row {
+        justify-content: space-between;
+        /* background-color: var(--bg-color); */
+        align-items: center;
+        padding: 1rem 0;
     }
 
     .client-containor {
         margin: 17rem 0 18rem 0;
         margin-left: calc((100% - 90%) / 2);
     }
+    .search-form .explore {
+        background-color: #000;
+        color: var(--secondary-color);
+        border-radius: 38rem;
+        padding: 1.5rem 2rem;
+        font-weight: bold;
+        border: none;
+        font-size: 1.5rem;
+        font-family: 'Poppins';
+    }
+    .main-title h2 {
+        font-size: 4rem;
+        line-height: 6rem;
+        margin-bottom: 1rem;
+    }
 
     .hero-data h1 {
-        font-size: 7rem;
-        line-height: 7rem;
+        font-size: 8rem;
+        line-height: 9rem;
+    }
+
+    .hero-data p {
+        font-weight: 500;
+        font-size: 1.6rem;
+    }
+
+    .hero-data p {
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 3rem;
     }
 
     #hero .hero-data {
-        top: 24%;
+        top: 40%;
+    }
+
+    .hero-data .search-form {
+        width: 63.6rem;
+        height: 6.8rem;
     }
 
     header .row nav ul li a {
         padding: 1.3rem 2rem;
     }
 
-    .main-title h2 {
-        font-size: 4rem;
-        line-height: 5rem;
-        margin-bottom: 1rem;
+    header .row nav ul li a {
+        color: var(--secondary-color);
+        font-size: 1.6rem;
+        font-weight: 500;
+        padding: 1.3rem 2.3rem;
     }
 
     .main-title p {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         line-height: 3.1rem;
         margin-bottom: 7.4rem;
     }
 
-    .explore-arrow .prev,
-    .explore-arrow .next {
-        width: 5rem;
-        height: 5.6rem;
-        font-size: 2rem;
-        line-height: 5rem;
+    .explore-arrow .prev, .explore-arrow .next {
+        width: 6rem;
+        height: 6rem;
+        font-size: 2.8rem;
+        line-height: 6rem;
     }
 
     #explore {
-        margin: 12.8rem 0 6rem;
+        margin: 15.8rem 0 6rem;
     }
 
     .explore-slider .card-text h4 {
@@ -1148,6 +1113,7 @@ header .row nav ul>i {
         line-height: 5.5rem;
         top: -4.4rem;
     }
+  
 
     .why-slider .swiper-sd {
         padding: 4.5rem 1rem 5rem 2rem;
@@ -1157,14 +1123,14 @@ header .row nav ul>i {
     }
 
     .why-slider .why-text h4 {
-        font-size: 2rem;
+        font-size: 2.2rem;
         line-height: 2rem;
         margin-top: 3rem;
     }
 
     .why-slider .why-text p {
-        font-size: 1.4rem;
-        line-height: 2rem;
+        font-size: 1.5rem;
+        line-height: 2.2rem;
     }
 
     .why-select-arrow .next1,
@@ -1173,6 +1139,18 @@ header .row nav ul>i {
         font-size: 2.3rem;
         line-height: 5.5rem;
         top: 2.6rem;
+    }
+    .why-select-arrow .next1, .why-select-arrow .prev1 {
+        width: 6rem;
+        height: 6rem;
+        font-size: 2.8rem;
+        line-height: 5.5rem;
+        top: -4.4rem;
+    }
+    .main-title h2 {
+        font-size: 6rem;
+        line-height: 7rem;
+        margin-bottom: 1rem;
     }
 
     .why-slider .why-text a {
@@ -1190,12 +1168,12 @@ header .row nav ul>i {
     }
 
     .client-containor .client-say h2 {
-        font-size: 4rem;
-        line-height: 6rem;
+        font-size: 5rem;
+        line-height: 7rem;
     }
 
     .client-containor .client-say p {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         line-height: 3rem;
     }
 
@@ -1205,19 +1183,19 @@ header .row nav ul>i {
         position: absolute;
         top: -13.4rem;
         width: 6rem;
-        height: 5.6rem;
+        height: 6rem;
         box-shadow: 0px 8px 50px rgba(0, 0, 0, 0.1);
         background: #FFFFFF;
         border: 1px solid #E8E8E8;
         border-radius: 10px;
-        font-size: 2.5rem;
+        font-size: 2.8rem;
         text-align: center;
         line-height: 5.5rem;
         cursor: pointer;
     }
 
     .our-client-slider .swiper-slide .client-data h4 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         line-height: 2rem;
         padding-top: 4.2rem;
     }
@@ -1246,12 +1224,12 @@ header .row nav ul>i {
 
 
     #subcribe .main-title h2 {
-        font-size: 4rem;
+        font-size: 5rem;
         line-height: 6rem;
     }
 
     #subcribe .main-title p {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         line-height: 3rem;
     }
 
@@ -1259,10 +1237,14 @@ header .row nav ul>i {
         font-size: 1.6rem;
         line-height: 3rem;
     }
+    .Subcribe-form {
+        width: 65.6rem;
+        height: 6.2rem;
+    }
 
     .travel h4 {
-        font-size: 1.8rem;
-        line-height: 4rem;
+        font-size: 2.2rem;
+        line-height: 5rem;
     }
 
     .contact-info ul li a {
@@ -1294,7 +1276,8 @@ header .row nav ul>i {
     .travel .travelers .tra-img img {
         width: 68%;
     }
-    .follow-icon ul{
+
+    .follow-icon ul {
         display: flex;
     }
 
@@ -1303,6 +1286,11 @@ header .row nav ul>i {
     }
 
 }
+
+
+
+/***1200-1366****/
+@media screen and (max-width:1365px) {}
 
 /* 992-1199 */
 @media screen and (max-width:1199px) {
