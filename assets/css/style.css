@@ -1030,7 +1030,7 @@ header .row nav ul>i {
     }
 
     #hero .hero-data {
-        top: 24%;
+        top: 32%;
     }
 
     header .row nav ul li a {
@@ -1281,10 +1281,21 @@ header .row nav ul>i {
         line-height: 9rem;
     }
 
+    header .row nav ul li a {
+        color: var(--secondary-color);
+        font-size: 1.6rem;
+        font-weight: 500;
+        padding: 1.3rem 3.3rem;
+    }
 
 
-    #hero .hero-data {
-        top: 32%;
+
+    .hero-data p {
+        font-weight: 500;
+        font-size: 1.6rem;
+        line-height: 4.4rem;
+        color: #CFCFCF;
+        margin: 3.7rem 0 1.1rem 0;
     }
 
     header .row nav ul li a {
@@ -1296,9 +1307,20 @@ header .row nav ul>i {
         height: 6.7rem;
     }
 
+    .search-form .explore {
+        background-color: #000;
+        color: var(--secondary-color);
+        border-radius: 38rem;
+        padding: 1.3rem 2rem;
+        font-weight: bold;
+        border: none;
+        font-size: 1.8rem;
+        font-family: 'Poppins';
+    }
+
     .main-title h2 {
-        font-size: 4rem;
-        line-height: 5rem;
+        font-size: 5rem;
+        line-height: 6rem;
         margin-bottom: 1rem;
     }
 
@@ -1313,7 +1335,7 @@ header .row nav ul>i {
         width: 5.5rem;
         height: 5.5rem;
         font-size: 2rem;
-        line-height: 6rem;
+        line-height: 5.5rem;
     }
 
     #explore {
@@ -1350,7 +1372,7 @@ header .row nav ul>i {
 
     .explore-slider .card-text .explore-cricle span {
         font-size: 6rem;
-        line-height: 10rem;
+        line-height: 9rem;
     }
 
     header .row>a i {
@@ -1371,15 +1393,20 @@ header .row nav ul>i {
         top: -4.4rem;
     }
 
-    .why-slider .swiper-sd {
+    /* .why-slider .swiper-sd {
         padding: 2.5rem 1rem 5rem 2rem;
         margin-top: 5.6rem;
         margin-right: 2rem;
         margin-bottom: 2rem;
+    } */
+    .why-slider .swiper-sd {
+        margin-top: 14.6rem;
     }
+
     .why-slider .swiper-wrapper {
         padding-bottom: 1rem;
     }
+
 
 
 
@@ -1415,7 +1442,7 @@ header .row nav ul>i {
     }
 
     .client-containor .client-say h2 {
-        font-size: 4rem;
+        font-size: 5rem;
         line-height: 6rem;
     }
 
@@ -1491,7 +1518,7 @@ header .row nav ul>i {
 
 
     #subcribe .main-title h2 {
-        font-size: 4rem;
+        font-size: 5rem;
         line-height: 6rem;
     }
 
@@ -1504,6 +1531,7 @@ header .row nav ul>i {
         font-size: 1.6rem;
         line-height: 3rem;
     }
+
     .Subcribe-form {
         width: 53.6rem;
         height: 6.2rem;
@@ -1558,6 +1586,11 @@ header .row nav ul>i {
         font-size: 1.6rem;
     }
 
+    .copy {
+        padding: 3rem 0 2rem 0;
+        background-color: #000;
+
+    }
 }
 
 /* 992-1199 */
@@ -1567,7 +1600,7 @@ header .row nav ul>i {
     }
 
     header .row nav ul li a {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         padding: 1.3rem 1.3rem;
     }
 
@@ -1576,10 +1609,18 @@ header .row nav ul>i {
         padding: 1.3rem 1.3rem;
     }
 
+    #hero .hero-data {
+        top: 41%;
+    }
+
     .hero-data h1 {
         font-size: 6rem;
-        line-height: 7rem;
+        line-height: 8rem;
     }
+    #our-tour{
+        margin-top: 10rem;
+    }
+   
 
     .hero-data p {
         font-size: 1.6rem;
@@ -1587,14 +1628,22 @@ header .row nav ul>i {
         margin: 3rem 0 1.1rem 0;
     }
 
+    .hero-data .search-form {
+        width: 51.6rem;
+        height: 5.8rem;
+    }
+    .explore-slider .img-slider .card-img img {
+        height: 30rem;
+    }
+
 
     .search-form .explore {
-        padding: 1.5rem 2rem;
+        padding: 1rem 1rem;
         font-size: 1.4rem;
     }
 
     .hero-data .search-form {
-        width: 60.6rem;
+        width: 51.6rem;
         height: 5.8rem;
     }
 
@@ -1602,37 +1651,91 @@ header .row nav ul>i {
         font-size: 1.6rem;
     }
 
-    .explore-arrow .prev,
-    .explore-arrow .next {
-        width: 5rem;
-        height: 4.6rem;
+    .why-select-arrow .prev1,
+    .why-select-arrow .next1 {
+        width: 4.5rem;
+        height: 4.5rem;
         font-size: 1.8rem;
         line-height: 4.5rem;
-        top: -5.4rem;
+        top: -1.4rem;
+    }
+
+    .explore-slider .card-text h4 {
+        font-size: 1.8rem;
+    }
+
+    .explore-slider .img-slider:hover .card-img img {
+        border-radius: 1rem 1rem 0 0;
+        height: 29.6rem;
+        cursor: pointer;
+        box-shadow: none;
+    }
+
+    .explore-slider .card-text .explore-cricle {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .why-slider .why-text a {
+        margin-top: 3rem;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .why-slider .swiper-wrapper {
+        padding-bottom: 2rem;
+    }
+
+    .client-containor .client-say h2 {
+        font-size: 3.4rem;
+        line-height: 6rem;
+    }
+
+    .explore-slider .card-text .explore-cricle span {
+        font-size: 5rem;
+        line-height: 8.5rem;
     }
 
     .main-title p {
         margin-bottom: 4.4rem;
     }
+   
 
-    #hero .hero-data {
-        top: 40%;
+   
+
+    .explore-arrow .prev,
+    .explore-arrow .next {
+        width: 4.5rem;
+        height: 4.5rem;
+        font-size: 2rem;
+        line-height: 4.5rem;
     }
 
     .why-select-arrow .prev1,
     .why-select-arrow .next1 {
-        width: 5rem;
-        height: 4.6rem;
+        width: 4.5rem;
+        height: 4.5rem;
         font-size: 1.8rem;
         line-height: 4.5rem;
         top: -1.4rem;
     }
-    .why-slider .swiper-sd {
-        padding: 3.5rem 1rem 5rem 2rem;
-        margin-top: 5.6rem;
-        margin-right: 7rem;
-        margin-bottom: 1rem;
+
+    .our-client-arrow .prev2 {
+        right: 51rem;
+        color: #737373;
     }
+
+    .Subcribe-form {
+        width: 52.6rem;
+        height: 6.2rem;
+    }
+
+    .Subcribe-form .Subscribe {
+        padding: 1rem 2rem;
+        font-weight: 500;
+        font-size: 17px;
+    }
+
     #why-select::before {
         /* z-index: 1; */
         content: '';
@@ -1642,20 +1745,50 @@ header .row nav ul>i {
         height: 47.2rem;
     }
 
+    .our-client-slider .swiper-slide .client-img img {
+        width: 11rem;
+        height: 11rem;
+        position: absolute;
+        top: -17%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
     .our-client-arrow .prev2,
     .our-client-arrow .next2 {
-        width: 4rem;
-        height: 4rem;
+        width: 4.5rem;
+        height: 4.5rem;
         font-size: 1.8rem;
         line-height: 4.5rem;
         top: -5.4rem;
     }
 
+    .main-title h2 {
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+
     .our-client-arrow .prev2 {
-        right: 14rem;
+        right: 49rem;
         color: #737373;
     }
-    
+
+    .our-client-arrow .next2 {
+        right: 42rem;
+        color: #737373;
+    }
+
+    .why-slider .swiper-sd {
+        padding: 4.5rem 1rem 5rem 2rem;
+        margin-top: 10.6rem;
+        margin-right: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    .why-slider .why-img {
+        width: 6rem;
+        height: 6rem;
+    }
 
     #why-select {
         background-size: 100% 47.2rem;
@@ -1669,8 +1802,35 @@ header .row nav ul>i {
         width: 30px;
     } */
 
-    .tour-img img {
+    /* .tour-img img {
         max-width: 70%;
+    } */
+
+    .travel h4 {
+        font-size: 1.7rem;
+        line-height: 5rem;
+    }
+
+    .copy {
+        padding: 2rem 0 2rem 0;
+        background-color: #000;
+    }
+
+    #subcribe .main-title h2 {
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+
+    .our-client-slider .swiper-slide .client-data>p {
+        font-size: 1.4rem;
+        line-height: 2.6rem;
+    }
+    .tour-img{
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        display: flex;
+        
     }
 
     #our-tour .tour-partner {
@@ -1705,318 +1865,14 @@ header .row nav ul>i {
         padding: 3rem 0 1.5rem 0;
     }
 
-    .our-client-slider .swiper-slide .client-data>p {
-        font-size: 1.6rem;
-        line-height: 2.6rem;
-    }
+
 
     #our-client .our-client-slider .swiper-clt {
-        width: 26.9rem;
+        width: 31.9rem;
         height: 37.2rem;
         padding: 5rem 3.4rem 0.1rem 2.3rem;
         margin: 0px 1rem 0 10rem;
-    }
-
-    .explore-slider .card-text .explore-cricle span {
-        font-size: 5rem;
-        line-height: 9rem;
-    }
-}
-
-/*768-991*/
-@media screen and (max-width:991px) {
-    .containor {
-        max-width: 100%;
-    }
-
-    header .row {
-        padding: 1rem 0;
-    }
-
-    header nav>ul {
-        position: absolute;
-        top: 0;
-        right: -35%;
-        width: 35%;
-        height: 100vh;
-        transition: all 0.5s;
-        background-color: grey;
-    }
-
-    #hero {
-        height: auto;
-    }
-
-    #hero .hero-data {
-        position: relative;
-        padding-top: 20rem;
-    }
-
-    header .row nav ul li {
-        display: block;
-        width: 100%;
-    }
-
-    header .row nav ul li a {
-        display: block;
-        width: 100%;
-        padding: 1.3rem;
-    }
-
-    header .row nav ul li ul {
-        width: 100%;
-        position: relative;
-        top: 0;
-        left: 0;
-    }
-
-    header nav ul li ul li a {
-        padding-left: 6rem;
-        width: 100%;
-        padding: 1.3rem;
-    }
-
-    header nav ul li ul li ul {
-        position: relative;
-        top: 0;
-        left: 0;
-    }
-
-    header .row nav ul li ul li ul {
-        position: relative;
-        top: 0;
-        left: 0;
-    }
-
-    header .row nav ul li ul li ul li {
-        display: block;
-        width: 100%;
-    }
-
-    header .row nav ul li ul li ul li a {
-        display: block;
-        width: 100%;
-        padding-left: 6rem;
-    }
-
-    header .row .logo {
-        order: 0;
-    }
-
-    header .row nav {
-        order: 2;
-
-    }
-
-    header .row .search {
-        order: 1;
-    }
-
-    header .row .search i {
-        transition: all 0.5s;
-    }
-
-    header .row nav ul>i {
-        color: #ECECEC;
-        margin-top: 2.7rem;
-        font-size: 2.5rem;
-        text-align: right;
-        display: inline-block !important;
-        width: 100%;
-        padding-right: 3.4rem;
-    }
-
-    header .row nav ul li:hover a i {
-        transform: rotate(90deg);
-    }
-
-    header .row nav>i {
-        display: inline-block !important;
-    }
-
-    .showHide {
-        right: 0%;
-    }
-
-    header .row nav {
-        margin-left: 1rem;
-    }
-
-    .hero-data .search-form {
-        width: 56.6rem;
-        height: 5.8rem;
-    }
-
-    .search-form .explore {
-        padding: 1rem 2rem;
-        font-size: 1.4rem;
-    }
-
-    .search-form select {
-        font-size: 1.4rem;
-    }
-
-    .hero-data p {
-        font-size: 1.4rem;
-        line-height: 2.5rem;
-        padding-bottom: 3rem;
-    }
-
-    #explore {
-        margin: 8.8rem 0 4rem;
-    }
-
-    .main-title h2 {
-        font-size: 4rem;
-        line-height: 5rem;
-    }
-
-    .main-title p {
-        font-size: 1.4rem;
-        line-height: 2.3rem;
-        margin-bottom: 7.4rem;
-    }
-
-    .explore-slider .card-text p {
-        font-size: 1.4rem;
-        line-height: 2rem;
-    }
-
-    #why-select {
-        margin-bottom: 7rem;
-    }
-
-    #why-select .main-title p {
-        margin-bottom: 1.4rem;
-    }
-
-    .why-slider .why-text p {
-        font-size: 1.4rem;
-    }
-
-    .why-slider .why-text a {
-        margin-top: 2rem;
-        font-size: 1.4rem;
-        line-height: 0rem;
-    }
-
-
-
-    .why-slider .swiper-sd {
-        padding: 4.5rem 1rem 3rem 2rem;
-        margin-bottom: 1rem;
-    }
-
-    .tour-img img {
-        max-width: 60%;
-    }
-
-    .client-containor {
-        margin: 6rem 0 6rem 0;
-        margin-left: calc((100% - 90%) / 2);
-    }
-
-    .client-containor .client-say h2 {
-        font-size: 4rem;
-        line-height: 5rem;
-    }
-
-    .client-containor .client-say p {
-        font-size: 1.4rem;
-        line-height: 2.5rem;
-    }
-
-    .client-containor .client-say p span {
-        font-size: 2.5rem;
-        line-height: 5rem;
-    }
-
-    .our-client-slider .swiper-slide .client-data p {
-        font-size: 1.4rem;
-    }
-
-    .our-client-slider .swiper-slide .client-data>p {
-        line-height: 2rem;
-    }
-
-    .our-client-arrow .prev2,
-    .our-client-arrow .next2 {
-        top: -7.4rem;
-    }
-
-    .our-client-arrow .next2 {
-        right: 40%;
-    }
-
-    .our-client-arrow .prev2 {
-        left: 40%;
-        color: #737373;
-    }
-
-    #subcribe .main-title h2 {
-        font-size: 4rem;
-        line-height: 5rem;
-    }
-
-    #subcribe .main-title p {
-        font-size: 1.4rem;
-        line-height: 2rem;
-        margin-bottom: 4.4rem;
-    }
-
-    .Subcribe-form {
-        width: 54.6rem;
-        height: 5.2rem;
-    }
-
-    .Subcribe-form .Subscribe {
-        padding: 1rem 2rem;
-        font-size: 1.4rem;
-    }
-
-    .Subcribe-form .email-form {
-        font-size: 1.4rem;
-    }
-
-    .travel h4 {
-        font-size: 1.6rem;
-        line-height: 3rem;
-    }
-
-    #travelers ul li a {
-        font-size: 1.4rem;
-        line-height: 1.5rem;
-    }
-
-    #travelers ul li {
-        font-size: 1.4rem;
-        line-height: 1.5rem;
-    }
-
-    .travelers {
-        flex-basis: 22rem;
-    }
-
-    .travel .travelers .tra-img img {
-        max-width: 60%;
-    }
-
-    .travel .travelers .tra-img {
-        padding-bottom: 0.5rem;
-        padding-top: 0.5rem;
-    }
-
-    #travelers ul li {
-        font-size: 1.4rem;
-        line-height: 2.5rem;
-    }
-
-    .copyright p {
-        font-size: 1.4rem;
-    }
-
-    .copyright {
-        padding: 2rem 0 1rem 0;
+        /* margin-right: -20px; */
     }
 
 
@@ -2075,6 +1931,11 @@ header .row nav ul>i {
 
     #explore {
         margin: 3.8rem 0 3rem;
+    }
+
+    .our-client-arrow .next2 {
+        right: 42rem;
+        color: #737373;
     }
 
     .explore-arrow .prev,
